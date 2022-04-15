@@ -1,0 +1,79 @@
+.dark-gray .gray{
+    color: rgb(83, 100, 113);
+}
+
+.numero{
+    font: bold;
+}
+
+.dark-gray{
+    color: rgb(15, 20, 25);
+}
+
+a{
+    color: rgb(15, 20, 25);
+}
+
+li{
+    list-style-type: none;
+}
+
+.navegacao li:hover{
+    background-color: rgba(15, 25, 20, 0.1);
+    border-radius: 10px;
+}
+
+.estatisticas{
+    color: rgb(83, 100, 113);
+}
+
+.estatisticas span:hover{
+    text-decoration: underline;
+}
+
+.publicacoes:read-only{
+    color: rgb(15, 20, 25);
+}
+
+.publicacoes a:hover{
+    background-color: rgba(15, 25, 20, 0.1);
+    border-radius: 10px;
+}
+
+.acoes a{
+    color: rgb(83, 100, 113);
+}
+
+.responder-compartilhar a:hover{
+    color: rgba(29, 155, 240, 1);
+    background-color:  rgba(29, 155, 240, 0.1);
+    border-radius: 10px;
+}
+
+.responder-compartilhar:hover, .retzeetar:hover, .curtir:hover{
+    text-decoration: underline;
+}
+
+.retzeetar a:hover{
+    color: rgba(0, 186, 124, 1);
+    background-color: rgba(0, 186, 124, 0.1);
+    border-radius: 10px;
+}
+
+/*.retzeetar:hover{
+    text-decoration: underline;
+}*/
+
+.curtir a:hover{
+    color: rgba(249, 24, 128, 1);
+    background-color: rgba(249, 24, 128, 0.1);
+    border-radius: 10px;
+}
+
+/*.curtir:hover{
+    text-decoration: underline;
+}*/
+
+.tzeet p:hover, p:link{
+    background-color: rgba(249, 24, 128, 0.1);
+}
